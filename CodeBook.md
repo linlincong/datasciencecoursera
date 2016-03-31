@@ -19,8 +19,10 @@ he acceleration signal from the smartphone accelerometer XYZ axis in standard gr
 
 ## the variable list below:
 
-###SubjectID : numeric, record the unique subject ID for each subject
-###Activity : character, descript the different activity types for each subject. Totall have 6 kinds of activity types
+###SubjectID : 
+numeric, record the unique subject ID for each subject
+###Activity : c
+haracter, descript the different activity types for each subject. Totall have 6 kinds of activity types
 ###Meanof_tBodyAcc-XYZ 
 ###Meanof_tGravityAcc_mean_XYZ
 ###Meanof_tGravityAcc_std_XYZ
