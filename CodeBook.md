@@ -1,8 +1,4 @@
 #CodeBook
-###SubjectID : 
-numeric, record the unique subject ID for each subject
-###Activity : 
-character, descript the different activity types for each subject. Totall have 6 kinds of activity types
 
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz.
@@ -20,7 +16,11 @@ These signals were used to estimate variables of the feature vector for each pat
 The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 he acceleration signal from the smartphone accelerometer XYZ axis in standard gravity units 'g'. 
 
-###Meanof_tBodyAcc-XYZ :
+## the variable list below:
+
+###SubjectID : numeric, record the unique subject ID for each subject
+###Activity : character, descript the different activity types for each subject. Totall have 6 kinds of activity types
+###Meanof_tBodyAcc-XYZ 
 ###Meanof_tGravityAcc_mean_XYZ
 ###Meanof_tGravityAcc_std_XYZ
 ###Meanof_tBodyAccJerk_mean_XYZ
