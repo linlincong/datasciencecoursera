@@ -10,7 +10,8 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-"_mean_" and "_std_" indicates the mean value and standard deiviation value for each measurements.
+"\\_mean\\_" and "\\_std\\_" indicates the mean value and standard deiviation value for each measurements.
+
 "Meanof" indicates the average of the mean value and standard deviation of that measurements for each subject and each type of activity.
 
 The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
